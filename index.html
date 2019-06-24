@@ -2,17 +2,22 @@
 <html>
 
 <head>
-  <title>Google</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
   <link rel="stylesheet" href="style.css">
+  <title>Google</title>
 </head>
 
 <body>
-  <header class="navbar">
-    <a href="#">Gmail</a>
-    <a href="#">Images</a>
-    <button>A</button>
-    <button>B</button>
-  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <li><a href="#"><i id="menu" class="fas fa-th"></i></a></li>
+      <li><a href="#"><i id="profile" class="fas fa-user-circle"></i>
+        </a></li>
+    </ul>
+  </nav>
 
   <div class="container">
     <div class="logo">
@@ -20,12 +25,15 @@
     </div>
 
     <div class="search">
-      <form>
-        <input type="text" id="search">
-        <div>
-          <button>Google Search</button>
-          <button>I'm Feeling Lucky</button>
+      <form action="">
+        <div class="search-input">
+          <input type="text">
+          <a href="#"><i id="mic-input" class="fas fa-microphone"></i></a>
         </div>
+
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+
 
       </form>
     </div>
