@@ -132,29 +132,29 @@ ul {
 #mic-hover {
   background-color: #2d2d2d;
   border: 1px solid white;
-  box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 4px;
+  box-sizing: border-box;
   color: #ffffff;
   display: none;
   font-size: 11px;
   font-weight: bold;
+  height: 29px;
+  left: 1050px;
+  line-height: 29px;
   opacity: 0;
   padding: 0 10px;
   position: absolute;
   text-align: center;
   top: 371px;
-  left: 1050px;
-  height: 29px;
-  line-height: 29px;
   transition: opacity 0.13s ease 0s;
 }
 #mic-hover:before {
-  border: 0.6em solid;
   border-color: transparent transparent #2d2d2d;
+  border: 0.6em solid;
   content: "";
   position: absolute;
-  top: -1.2em;
   right: 4.5em;
+  top: -1.2em;
 }
 #mic:hover > #mic-hover {
   display: block;
